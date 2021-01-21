@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Inicializador de formularios</title>
+    <script>
+        function inicializaCampos() {
+            for (i = 0; i < document.forms[0].elements.length; i++)
+                document.forms[0].elements[i].value = "0"
+        }
+        var miPopup
+        miPopup =
+            window.open("llamadas-desde-ventanas-popup.html", "miventana", "width=308,height=70,menubar=no")
+    </script>
+</head>
+
+<body>
+    <form>
+        <input type="Text" name="t1" value="0" size="4" maxlength="100">
+        <input type="Text" name="t2" value="0" size="4" maxlength="100">
+        <input type="Text" name="t3" value="0" size="4" maxlength="100">
+        <input type="Text" name="t4" value="0" size="4" maxlength="100">
+        <input type="Text" name="t5" value="0" size="4" maxlength="100">
+        <input type="Text" name="t6" value="0" size="4" maxlength="100">
+        <input type="Text" name="t7" value="0" size="4" maxlength="100">
+    </form>
+</body>
+
+</html>
